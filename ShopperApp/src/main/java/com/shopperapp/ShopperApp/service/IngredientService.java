@@ -38,10 +38,10 @@ public class IngredientService {
     public IngredientDTO updateIngredientRequest(Long ingredient_id, Ingredients new_i) {
         Optional<Ingredients> exOp = Optional.ofNullable(this.ingrRepo.findIngredientByIdJPQL(ingredient_id));
         Ingredients exists = exOp.get();
+
         exists.setName(new_i.getName());
 
         Ingredients u = this.ingrRepo.save(exists);
-        System.out.println("Service OK");
         return this.mapToDTO(u);
     }
     public boolean deleteIngredientRequest(Long ingredient_id) {

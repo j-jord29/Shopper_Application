@@ -45,7 +45,6 @@ public class ShoppingList {
      */
 
     public ShoppingList() {
-        super();
 
     }
 
