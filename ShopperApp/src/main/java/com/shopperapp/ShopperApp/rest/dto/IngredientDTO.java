@@ -13,7 +13,6 @@ public class IngredientDTO {
 
     public IngredientDTO() {
         super();
-        System.out.println("DTO OK");
     }
 
     public String getName(){

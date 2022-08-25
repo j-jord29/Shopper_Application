@@ -38,7 +38,6 @@ public class Ingredients {
     public String getName(){
         return name;
     }
-
     public void setName(String new_name){
         this.name = new_name;
     }

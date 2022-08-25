@@ -24,16 +24,8 @@ public class Units {
     private List<Units> unitList = new ArrayList<>();
 
     public Units() {
+
     }
-
-    /*
-
-    public Ingredients(Long id,String name) {
-        this.ingredient_id = id;
-        this.name = name;
-    }
-
-    */
 
     public String getName(){
         return name;
