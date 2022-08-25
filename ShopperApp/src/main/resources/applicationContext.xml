@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans
+        xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+
+    <bean id="e" class="com.shopperapp.ShopperApp.persistence.domain.Ingredients">
+        <constructor-arg value="500" type="Long"></constructor-arg>
+        <constructor-arg value="Spring Onion" type="String"></constructor-arg>
+    </bean>
+
+</beans>
