@@ -14,8 +14,5 @@ public interface IngredientRepo extends JpaRepository<Ingredients, Long> {
     List<IngredientDTO> findIngredientByNameSQL(String name);
 
     @Query(value = "SELECT p FROM Ingredients p WHERE p.ingredient_id = ?1")
-    Ingredients findIngredientByIdJPQL(Long id);
-
-
-
+    Ingredients findIngredientByIdJPQL();
 }

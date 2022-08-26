@@ -1,7 +1,7 @@
 package com.shopperapp.ShopperApp.rest.dto;
 
 
-import com.shopperapp.ShopperApp.exception.IngredientNotFoundException;
+import com.shopperapp.ShopperApp.exception.ElementNotFoundException;
 import com.shopperapp.ShopperApp.persistence.domain.Ingredients;
 import com.shopperapp.ShopperApp.persistence.repository.IngredientRepo;
 import lombok.Getter;

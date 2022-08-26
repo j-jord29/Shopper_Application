@@ -36,7 +36,7 @@ public class IngredientService {
         return this.ingrRepo.findAll().stream().map(this::mapToDTO).collect(Collectors.toList());
     }
     public IngredientDTO updateIngredientRequest(Long ingredient_id, Ingredients new_i) {
-        Optional<Ingredients> exOp = Optional.ofNullable(this.ingrRepo.findIngredientByIdJPQL(ingredient_id));
+        Optional<Ingredients> exOp = Optional.ofNullable(this.ingrRepo.findIngredientByIdJPQL());
         Ingredients exists = exOp.get();
 
         exists.setName(new_i.getName());

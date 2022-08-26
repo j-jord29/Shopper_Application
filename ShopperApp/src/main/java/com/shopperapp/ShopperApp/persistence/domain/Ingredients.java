@@ -53,8 +53,4 @@ public class Ingredients {
     public void getString() {
         System.out.println(getId() + " " + getName());
     }
-
-
-
-
 }

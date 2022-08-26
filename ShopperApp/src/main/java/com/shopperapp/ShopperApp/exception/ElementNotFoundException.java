@@ -5,8 +5,8 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 
 import javax.persistence.EntityNotFoundException;
 
-@ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "Ingredient Does Not Exist")
-public class IngredientNotFoundException extends EntityNotFoundException {
+@ResponseStatus(code = HttpStatus.NOT_FOUND, reason = "Element Does Not Exist")
+public class ElementNotFoundException extends EntityNotFoundException {
 
 
 }
