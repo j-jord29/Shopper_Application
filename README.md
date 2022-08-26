@@ -16,9 +16,9 @@ Implementing the controllers, repository and other elements went well, testing, 
 
 I'm want to spend more time adding features, create a front end and change around some of the code to better implement it
 
-![database-before] ()
+![database-before]()
 ![deletion]()
-![database-after]()
+![database-after](https://github.com/j-jord29/Shopper_Application/blob/main/database%20after.PNG)
 
 
 [Kaban Board]: 
