@@ -21,4 +21,5 @@ I'm want to spend more time adding features, create a front end and change aroun
 ![database-after](https://github.com/j-jord29/Shopper_Application/blob/main/database%20after.PNG)
 
 
-This is the link to my Kanban Board[Kaban Board]: https://github.com/users/j-jord29/projects/1
+This is the link to my [Kanban Board][KabanBoard-link]
+[KabanBoard-link]: https://github.com/users/j-jord29/projects/1
